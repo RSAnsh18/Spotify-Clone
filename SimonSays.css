@@ -1,0 +1,59 @@
+body {
+  /* Make the gradient your permanent default background */
+  background: linear-gradient(
+    135deg,
+    #f99b45,     /* match your button colors, as an example */
+    #63aac0 50%,
+    #819ff9
+  );
+  background-size: cover;
+  transition: background 300ms ease;  
+}
+body.red-flash {
+  background-color: red !important;
+  background-image: none !important;
+}
+.heading{
+    text-align: center;
+}
+spam{
+    font-weight: 700;
+}
+.heading{
+    font-weight: 900;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+.gameFlash{
+    background-color: black;
+}
+.userFlash{
+    background-color: green;
+}
